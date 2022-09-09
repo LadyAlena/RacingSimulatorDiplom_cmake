@@ -1,8 +1,8 @@
-#include "Magicarpet.h"
+п»ї#include "Magicarpet.h"
 
 namespace race_sim {
 	Magicarpet::Magicarpet() {
-		name = "Ковер-самолет";
+		name = "РљРѕРІРµСЂ-СЃР°РјРѕР»РµС‚";
 		speed = 10;
 	}
 
