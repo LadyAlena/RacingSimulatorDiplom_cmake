@@ -42,6 +42,10 @@ namespace race_sim {
 		if (!countReg) {
 			throw racing_simulator_error("Нет зарегестрированнх транспортных средств!");
 		}
+		
+		if (countReg < 0) {
+			throw racing_simulator_error("Число зарегестрированнх транспортных средств не может быть отрицательным!");
+		}
 
 		listOfReg = new Vehicle * [countReg];
 
