@@ -5,7 +5,7 @@
 namespace race_sim {
 	class Magicarpet : public AirVehicle {
 	public:
-		__declspec(dllexport) Magicarpet();
+		Magicarpet();
 
 	protected:
 		double timeResult(double distanceValue) override;
