@@ -11,7 +11,11 @@ namespace race_sim {
 	double Centaur::timeResult(double distanceValue) {
 
 		result = distanceValue / speed;
-		int n = static_cast<int>(result) / static_cast<int>(timeBeforeRest);
+		int n = 0;
+
+		if (result != timeBeforeRest) {
+			n = static_cast<int>(result) / static_cast<int>(timeBeforeRest);;
+		}
 
 		for (int i = 0; i < n; ++i) {
 			result += timeRest;

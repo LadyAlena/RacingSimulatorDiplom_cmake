@@ -290,6 +290,8 @@ int main(int argc, char** argv) {
 		race_sim::Vehicle** listOfReg = reception.generateListOfReg(); // формирование списка зарегестрированных ТС
 		
 		try {
+			race_sim::Vehicle** listOfReg = reception.generateListOfReg(); // формирование списка зарегестрированных ТС
+
 			_Race[codeRace]->start(distance, listOfReg, countReg);
 		}
 		catch (race_sim::racing_simulator_error& ex) {
