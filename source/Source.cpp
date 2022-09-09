@@ -287,8 +287,6 @@ int main(int argc, char** argv) {
 
 		/* Гонка */
 		
-		race_sim::Vehicle** listOfReg = reception.generateListOfReg(); // формирование списка зарегестрированных ТС
-		
 		try {
 			race_sim::Vehicle** listOfReg = reception.generateListOfReg(); // формирование списка зарегестрированных ТС
 
