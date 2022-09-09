@@ -20,11 +20,11 @@ namespace race_sim {
 
 		std::string getName();
 		TypeOfVehicle getTypeOfVehicle();
+		bool getReg();
 
 	protected:
 
 		void registrated(const bool reg);
-		bool getReg();
 
 		virtual double timeResult(double distanceValue);
 		double getResult();
