@@ -10,19 +10,33 @@ namespace race_sim {
 
 	double Camel::timeResult(double distanceValue) {
 
-		result = distanceValue / speed;
-		int n = 0;
+		int numberOfStops = 0;
+		double timeMoving = 0;
 
-		if (result != timeBeforeRest) {
-			n = static_cast<int>(result) / static_cast<int>(timeBeforeRest);;
-		}
+		double distanceBeforeRest = speed * timeBeforeRest;
 
-		for (int i = 0; i < n; ++i) {
-			if (i == 1) { timeRest = 5; }
-			else { timeRest = 8; }
+		do {
+			if (distanceBeforeRest < distanceValue) {
 
-			result += timeRest;
-		}
+				numberOfStops++;
+
+				if (numberOfStops == 1) { timeRest = 5; }
+				else if (numberOfStops >= 2) { timeRest = 8; }
+
+				timeMoving = timeBeforeRest;
+				result += timeMoving + timeRest;
+
+			}
+			else {
+				timeMoving = distanceValue / speed;
+
+				result += timeMoving;
+			}
+
+			distanceValue -= timeMoving * speed;
+
+		} while (distanceValue != 0);
+
 
 		return result;
 	}

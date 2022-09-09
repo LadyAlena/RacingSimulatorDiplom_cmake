@@ -33,13 +33,15 @@ namespace race_sim {
 		this->listOfReg = listOfReg;
 		this->countParticipants = countParticipants;
 
+		for (int i = 0; i < countParticipants; ++i) { listOfReg[i]->timeResult(distance); }
+
 		bool swapped = false;
 		Vehicle* temp;
 
 		do {
 			swapped = false;
 			for (int i = 1; i < countParticipants; i++) {
-				if (listOfReg[i - 1]->timeResult(distance) > listOfReg[i]->timeResult(distance)) {
+				if (listOfReg[i - 1]->getResult() > listOfReg[i]->getResult()) {
 					temp = listOfReg[i - 1];
 					listOfReg[i - 1] = listOfReg[i];
 					listOfReg[i] = temp;
