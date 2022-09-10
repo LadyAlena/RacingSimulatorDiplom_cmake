@@ -237,6 +237,8 @@ int main(int argc, char** argv) {
 						};
 					}
 					catch (race_sim::racing_simulator_error& ex) { std::cout << ex.what() << std::endl; }
+					catch (std::exception& ex) { std::cout << ex.what() << std::endl; }
+					catch (...) { std::cout << "Произошла неизвестная ошибка! Повторите попытку" << std::endl; }
 				}
 				else if (countReg < 2) {
 					break;
@@ -291,9 +293,9 @@ int main(int argc, char** argv) {
 
 			_Race[codeRace]->start(distance, listOfReg, countReg);
 		}
-		catch (race_sim::racing_simulator_error& ex) {
-			std::cout << ex.what() << std::endl;
-		}
+		catch (race_sim::racing_simulator_error& ex) { std::cout << ex.what() << std::endl; }
+		catch (std::exception& ex) { std::cout << ex.what() << std::endl; }
+		catch (...) { std::cout << "Произошла неизвестная ошибка! Повторите попытку" << std::endl; }
 
 		std::cout << std::endl;
 
