@@ -237,7 +237,6 @@ int main(int argc, char** argv) {
 						};
 					}
 					catch (race_sim::racing_simulator_error& ex) { std::cout << ex.what() << std::endl; }
-					catch (std::domain_error& ex) { std::cout << ex.what() << std::endl; }
 				}
 				else if (countReg < 2) {
 					break;
