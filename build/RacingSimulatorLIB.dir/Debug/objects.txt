@@ -1,0 +1,17 @@
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/racing_simulator_error.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/menu_operation_error.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/Vehicle.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/AirVehicle.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/Broomstick.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/Eagle.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/Magicarpet.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/GroundVehicle.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/BootsAllTerrain.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/Camel.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/Centaur.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/FastMovingCamel.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/Race.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/AirRace.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/GroundAndAirRace.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/GroundRace.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/Debug/Reception.obj

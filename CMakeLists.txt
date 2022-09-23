@@ -7,59 +7,59 @@ if(WIN32)
 endif()
 
 add_library(RacingSimulatorLIB SHARED
-"source/racing_simulator_error.h"
-"source/racing_simulator_error.cpp"
-"source/menu_operation_error.h"
-"source/menu_operation_error.cpp"
+"src/RacingSimulator/RacingSimulatorExceptions/racing_simulator_error.h"
+"src/RacingSimulator/RacingSimulatorExceptions/racing_simulator_error.cpp"
+"src/RacingSimulator/RacingSimulatorExceptions/menu_operation_error.h"
+"src/RacingSimulator/RacingSimulatorExceptions/menu_operation_error.cpp"
 
-"source/TypeOfVehicle.h"
-"source/TypeOfRace.h"
+"src/RacingSimulator/Vehicle/TypeOfVehicle.h"
+"src/RacingSimulator/Race/TypeOfRace.h"
 
-"source/Vehicle.h"
-"source/Vehicle.cpp"
+"src/RacingSimulator/Vehicle/Vehicle.h"
+"src/RacingSimulator/Vehicle/Vehicle.cpp"
 
-"source/AirVehicle.h"
-"source/AirVehicle.cpp"
-"source/Broomstick.h"
-"source/Broomstick.cpp"
-"source/Eagle.h"
-"source/Eagle.cpp"
-"source/Magicarpet.h"
-"source/Magicarpet.cpp"
+"src/RacingSimulator/Vehicle/AirVehicle/AirVehicle.h"
+"src/RacingSimulator/Vehicle/AirVehicle/AirVehicle.cpp"
+"src/RacingSimulator/Vehicle/AirVehicle/Broomstick/Broomstick.h"
+"src/RacingSimulator/Vehicle/AirVehicle/Broomstick/Broomstick.cpp"
+"src/RacingSimulator/Vehicle/AirVehicle/Eagle/Eagle.h"
+"src/RacingSimulator/Vehicle/AirVehicle/Eagle/Eagle.cpp"
+"src/RacingSimulator/Vehicle/AirVehicle/Magicarpet/Magicarpet.h"
+"src/RacingSimulator/Vehicle/AirVehicle/Magicarpet/Magicarpet.cpp"
 
-"source/GroundVehicle.h"
-"source/GroundVehicle.cpp"
-"source/BootsAllTerrain.h"
-"source/BootsAllTerrain.cpp"
-"source/Camel.h"
-"source/Camel.cpp"
-"source/Centaur.h"
-"source/Centaur.cpp"
-"source/FastMovingCamel.h"
-"source/FastMovingCamel.cpp"
+"src/RacingSimulator/Vehicle/GroundVehicle/GroundVehicle.h"
+"src/RacingSimulator/Vehicle/GroundVehicle/GroundVehicle.cpp"
+"src/RacingSimulator/Vehicle/GroundVehicle/BootsAllTerrain/BootsAllTerrain.h"
+"src/RacingSimulator/Vehicle/GroundVehicle/BootsAllTerrain/BootsAllTerrain.cpp"
+"src/RacingSimulator/Vehicle/GroundVehicle/Camel/Camel.h"
+"src/RacingSimulator/Vehicle/GroundVehicle/Camel/Camel.cpp"
+"src/RacingSimulator/Vehicle/GroundVehicle/Centaur/Centaur.h"
+"src/RacingSimulator/Vehicle/GroundVehicle/Centaur/Centaur.cpp"
+"src/RacingSimulator/Vehicle/GroundVehicle/FastMovingCamel/FastMovingCamel.h"
+"src/RacingSimulator/Vehicle/GroundVehicle/FastMovingCamel/FastMovingCamel.cpp"
 
-"source/Race.h"
-"source/Race.cpp"
+"src/RacingSimulator/Race/Race.h"
+"src/RacingSimulator/Race/Race.cpp"
 
-"source/AirRace.h"
-"source/AirRace.cpp"
+"src/RacingSimulator/Race/AirRace/AirRace.h"
+"src/RacingSimulator/Race/AirRace/AirRace.cpp"
 
-"source/GroundAndAirRace.h"
-"source/GroundAndAirRace.cpp"
+"src/RacingSimulator/Race/GroundAndAirRace/GroundAndAirRace.h"
+"src/RacingSimulator/Race/GroundAndAirRace/GroundAndAirRace.cpp"
 
-"source/GroundRace.h"
-"source/GroundRace.cpp"
+"src/RacingSimulator/Race/GroundRace/GroundRace.h"
+"src/RacingSimulator/Race/GroundRace/GroundRace.cpp"
 
-"source/Reception.h"
-"source/Reception.cpp"
+"src/RacingSimulator/Reception/Reception.h"
+"src/RacingSimulator/Reception/Reception.cpp"
 
-"source/Vehicles.h"
-"source/Races.h")
+"src/RacingSimulator/Vehicle/Vehicles.h"
+"src/RacingSimulator/Race/Races.h")
 
 add_library (ConvertDataLIB SHARED
-"source/ConvertData.h"
-"source/ConvertData.cpp")
+"src/ConvertData/ConvertData.h"
+"src/ConvertData/ConvertData.cpp")
 
-add_executable(RacingSimulator "source/Source.cpp")
+add_executable(RacingSimulator "src/Source.cpp")
 
 target_link_libraries(RacingSimulator RacingSimulatorLIB ConvertDataLIB)

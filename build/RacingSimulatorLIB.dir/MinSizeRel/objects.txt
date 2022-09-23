@@ -1,0 +1,17 @@
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/racing_simulator_error.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/menu_operation_error.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/Vehicle.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/AirVehicle.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/Broomstick.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/Eagle.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/Magicarpet.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/GroundVehicle.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/BootsAllTerrain.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/Camel.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/Centaur.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/FastMovingCamel.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/Race.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/AirRace.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/GroundAndAirRace.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/GroundRace.obj
+C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/RacingSimulatorLIB.dir/MinSizeRel/Reception.obj
