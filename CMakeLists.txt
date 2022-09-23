@@ -62,4 +62,6 @@ add_library (ConvertDataLIB SHARED
 
 add_executable(RacingSimulator "src/Source.cpp")
 
-target_link_libraries(RacingSimulator RacingSimulatorLIB ConvertDataLIB)
+target_link_libraries(RacingSimulator 
+PRIVATE RacingSimulatorLIB 
+PRIVATE ConvertDataLIB)
