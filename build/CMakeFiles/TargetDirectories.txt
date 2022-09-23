@@ -1,5 +1,0 @@
-C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/CMakeFiles/RacingSimulatorLIB.dir
-C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/CMakeFiles/ConvertDataLIB.dir
-C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/CMakeFiles/RacingSimulator.dir
-C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/ladya/source/repos/RacingSimulatorDiplom_cmake/build/CMakeFiles/ZERO_CHECK.dir
